@@ -1,0 +1,210 @@
+
+.exclaim {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    color: red;
+    line-height: 80px;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    background-color: #999;
+    color: white;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+/* SPLASH */
+
+.splash {
+    width: 100%;
+    height: 600px;
+    background-image: url( '../media/splash.png' );
+}
+
+.tag-line {
+    color: white;
+    font-size: 4.0em;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+}
+
+.secondary-tag-line {
+    color: #bbb;
+    font-size: 2.5em;
+}
+
+.splash-description {
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    font-size: 1.4em;
+    width: 600px;
+    margin: 20px 0px;
+}
+
+.splash-action {
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    padding: 5px 20px;
+    width: 320px;
+}
+
+
+/* PROBLEM */
+.problem-title {
+    font-size: 3.0em;
+    color: #333;
+}
+
+.problem-container {
+    width: 100%;
+    height: 500px;
+}
+
+.problem-left {
+    background-color: red;
+    font-size: 1.4em;
+    color: white;
+    display: inline-block;
+    width: 380px;
+    height: 460px;
+    padding: 30px;
+}
+
+.problem-right {
+    display: inline-block;
+    width: 580px;
+    float: right;
+    background-image: url( '../media/problem.png' );
+    height: 520px;
+}
+
+/* SOLUTION */
+
+.solution {
+    background-color: #DDD;
+}
+
+.solution-tag-line {
+    text-align: center;
+    font-size: 6.0em;
+    line-height: 1.0em;
+    letter-spacing: -3px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    margin: 40px auto;
+}
+
+.service {
+    display: inline-block;
+    width: 490px;
+    background-color: white;
+}
+
+.web-presence {
+    float: right;
+}
+
+.service-header {
+    color: red;
+    font-size: 2.0em;
+    padding: 10px 20px;
+}
+
+.service-image {
+    width: 100%;
+    height: 300px;
+    background-position: stretch;
+}
+
+.social-spread .service-image {background-image: url( '../media/social-spread.png' );}
+.web-presence .service-image {background-image: url( '../media/web-presence.png' );}
+
+.service-description {
+    padding: 20px;    
+    font-size: 1.1em;
+}
+
+.service-action {
+    width: 100%;
+    font-size: 1.4em;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #666;
+    height: 500px;
+}
+
+.footer-header {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    font-size: 1.2em;
+}
+
+.footer-social, .footer-contact, .footer-map {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+}
+
+.footer-social {
+    width: 300px;
+}
+
+.footer-contact {
+    width: 300px;
+}
+
+.footer-map {
+    width: 400px;
+    float: right;
+}
+
+
+
+
+
