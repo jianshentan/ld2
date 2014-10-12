@@ -1,1 +1,1 @@
-node ld2.js
+web: node ld2.js
