@@ -1,4 +1,3 @@
-
 .exclaim {
     font-family: 'Oswald', sans-serif;
 }
@@ -9,7 +8,8 @@ body {
 }
 
 a {
-    color: #00B7FF;
+    color: white;
+    text-decoration: none; 
 }
 
 .content {
@@ -28,18 +28,29 @@ header {
 
 nav {
     width: 100%;
-    height: 40px;
-    line-height: 40px;
+    height: 48px;
+    line-height: 48px;
     font-size: 1.4em;
     letter-spacing: 1px;
     background-color: #999;
     color: white;
+    z-index: 1000;
 }
 
 .nav-link {
     display: inline-block;
     margin-right: 40px;
     cursor: pointer;
+    line-height: 32px;
+}
+
+.nav-link.underline {
+    border-bottom: 2px solid;
+}
+
+.stick {
+    position: fixed;
+    top: 0; 
 }
 
 /* SPLASH */
@@ -116,13 +127,13 @@ nav {
 
 .solution-tag-line {
     text-align: center;
-    font-size: 6.0em;
+    font-size: 5.2em;
     line-height: 1.0em;
     letter-spacing: -3px;
     color: #333;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    font-family: 'Roboto', sans-serif;
     margin: 40px auto;
 }
 
@@ -205,6 +216,65 @@ footer {
 }
 
 
+/* mission */
+.mission-head {
+    position: relative;
+    height: 400px;
 
+}
+
+.mission-head > div.content {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.2em;
+    left: 50%; top: 50%;
+    margin-left: -512px;
+    margin-top: -100px;
+    position: absolute;
+    color: white;
+}
+
+.mission-image {
+    position: absolute;
+    background-image: url( "../media/mission.png" );
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.mission-title {
+    font-size: 2.8em;
+}
+
+/* culture */
+.culture-head {
+    position: relative;
+    height: 400px;
+}
+
+.culture-head > div.content {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.2em;
+    left: 50%; top: 50%;
+    margin-left: -512px;
+    margin-top: -100px;
+    position: absolute;
+    color: white;
+}
+
+.culture-image {
+    position: absolute;
+    background-image: url( "../media/culture.png" );
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.culture-title {
+    font-size: 2.8em;
+}
 
 
