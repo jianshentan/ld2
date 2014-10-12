@@ -141,6 +141,8 @@ nav {
     display: inline-block;
     width: 490px;
     background-color: white;
+    height: 900px;
+    position: relative;
 }
 
 .web-presence {
@@ -176,6 +178,9 @@ nav {
     background-color: red;
     color: white;
     text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 /* footer */
