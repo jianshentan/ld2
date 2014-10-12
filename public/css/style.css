@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: 'PT Sans', sans-serif;
+    min-width: 1024px;
 }
 
 a {
