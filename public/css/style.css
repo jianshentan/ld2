@@ -13,6 +13,12 @@ a {
     text-decoration: none; 
 }
 
+hr {
+    border: 0px;
+    background-color: #999;
+    height: 2px;
+}
+
 .content {
     margin: 0 auto;
     width: 1024px;
@@ -31,7 +37,7 @@ nav {
     width: 100%;
     height: 48px;
     line-height: 48px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     /*letter-spacing: 1px;*/
     background-color: #999;
     color: white;
@@ -185,23 +191,22 @@ nav {
     bottom: 0px;
     left: 0px;
 }
-
 /* footer */
 footer {
     width: 100%;
     background-color: #666;
-    height: 500px;
+    height: 460px;
 }
 
 .footer-header {
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 .footer-info {
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 .footer-social, .footer-contact, .footer-map {
@@ -316,16 +321,70 @@ footer {
     color: white;
 }
 
-.services-image-one {
+.services-images {
     position: absolute;
-    background-image: url( "../media/services_one.png" );
     width: 100%;
     height: 400px;
     background-size: cover;
 }
 
-.social-spread-title {
+.services-image-one {
+    background-image: url( "../media/services-one.png" );
+}
+
+.services-image-two {
+    background-image: url( "../media/services-two.png" );
+}
+
+.service-title {
     font-size: 2.8em;
 }
+
+.social-spread-features {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.social-spread-feature {
+    width: 315px;
+    display: inline-block;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.social-spread-feature.last {
+    padding-right: 0px !important;
+}
+
+.social-spread-feature-header {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.social-spread-feature-description {
+    text-align: left;
+}
+
+.web-presence-feature-header {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.web-presence-feature-image {
+    width: 100%;
+    height: 160px;
+    margin: 15px auto;
+}
+
+.web-presence-feature-one > .web-presence-feature-image {
+    background-image: url( "../media/web-presence-support-one.png" );
+}
+.web-presence-feature-two > .web-presence-feature-image {
+    background-image: url( "../media/web-presence-support-two.png" );
+}
+
 
 
