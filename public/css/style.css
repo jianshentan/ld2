@@ -255,6 +255,10 @@ footer {
     font-size: 2.8em;
 }
 
+.mission-tagline {
+    background-color: rgba( 0,0,0,0.5 );
+}
+
 /* culture */
 .culture-head {
     position: relative;
@@ -282,6 +286,45 @@ footer {
 }
 
 .culture-title {
+    font-size: 2.8em;
+}
+
+.culture-tagline {
+    background-color: rgba( 0,0,0,0.5 );
+}
+
+
+/* services */
+.services-head {
+    position: relative;
+    height: 400px;
+}
+
+.services-tagline {
+    background-color: rgba( 0,0,0,0.5 );
+}
+
+.services-head > div.content {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.2em;
+    left: 50%; top: 50%;
+    margin-left: -512px;
+    margin-top: -100px;
+    position: absolute;
+    color: white;
+}
+
+.services-image-one {
+    position: absolute;
+    background-image: url( "../media/services_one.png" );
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.social-spread-title {
     font-size: 2.8em;
 }
 

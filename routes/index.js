@@ -13,6 +13,10 @@ router.get('/culture', function(req, res) {
   res.render( 'culture' );
 });
 
+router.get('/services', function(req, res) {
+  res.render( 'services' );
+});
+
 
 
 module.exports = router;
