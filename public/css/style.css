@@ -351,6 +351,7 @@ footer {
     display: inline-block;
     padding-right: 30px;
     text-align: center;
+    vertical-align: top;
 }
 
 .social-spread-feature.last {
