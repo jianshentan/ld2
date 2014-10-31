@@ -237,9 +237,10 @@ footer {
 
 .mission-head > div.content {
     text-align: center;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    font-size: 5.2em;
+    /*font-weight: 700;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.0em;
+    letter-spacing: 3px;
     left: 50%; top: 50%;
     margin-left: -512px;
     margin-top: -100px;
@@ -271,9 +272,10 @@ footer {
 
 .culture-head > div.content {
     text-align: center;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    font-size: 5.2em;
+    /*font-weight: 700;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.0em;
+    letter-spacing: 3px;
     left: 50%; top: 50%;
     margin-left: -512px;
     margin-top: -100px;
@@ -310,9 +312,10 @@ footer {
 
 .services-head > div.content {
     text-align: center;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    font-size: 5.2em;
+    /*font-weight: 700;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.0em;
+    letter-spacing: 3px;
     left: 50%; top: 50%;
     margin-left: -512px;
     margin-top: -100px;
