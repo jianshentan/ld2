@@ -26,6 +26,8 @@ app.use('/', routes);
 app.use('/mission', routes);
 app.use('/culture', routes);
 app.use('/services', routes);
+app.use('/service:social', routes);
+app.use('/service:web', routes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

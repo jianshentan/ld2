@@ -15,7 +15,15 @@ $( document ).ready( function() {
         case "services": 
             $( ".services" ).addClass( "underline" );
             break;
-    } 
+        case "services:social": 
+            $( ".services" ).addClass( "underline" );
+            scrollTo( $( ".social.service-title" ) );
+            break;
+        case "services:web": 
+            $( ".services" ).addClass( "underline" );
+            scrollTo( $( ".web.service-title" ) );
+            break;
+    }    
 
     // sticky nav
     var nav = $( "nav" ),
@@ -28,4 +36,20 @@ $( document ).ready( function() {
             nav.removeClass( "stick" );
         }
     });
+
+    // trigger buttons
+    $( ".service-action.social" ).click( function() {
+        location.href = "/services:social";
+    });
+    $( ".service-action.web" ).click( function() {
+        location.href = "/services:web";
+    });
+
 });
+
+function scrollTo( el ) {
+    console.log( "SCROLLING" );
+    $('html,body').animate({
+        scrollTop: el.offset().top - 90
+    }, 600);
+};

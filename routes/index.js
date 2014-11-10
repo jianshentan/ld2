@@ -17,6 +17,14 @@ router.get('/services', function(req, res) {
   res.render( 'services' );
 });
 
+router.get('/service:social', function(req, res) {
+  res.render( 'services' );
+});
+
+router.get('/service:web', function(req, res) {
+  res.render( 'services' );
+});
+
 
 
 module.exports = router;
